@@ -13,7 +13,7 @@ describe('CutText', () => {
 
   it('should return an error if "content" arg length is 0', () => {
   expect(cutText('', 20)).to.equal('Error');
-});
+  });
 
   it('should return an error if "maxLength" arg is not a number', () => {
   expect(cutText('Lorem Ipsum', undefined)).to.equal('Error');
